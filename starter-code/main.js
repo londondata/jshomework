@@ -8,6 +8,18 @@
 
 */
 
+var name = 'Anthony';
+var age = '20';
+var address = '100 Main Street';
+var greeting = 'Sup homedawgs, my name is ' + name + ' and I am ' + age + ' years old. I live at ' + address + ', please do not stalk me.';
+
+console.log(greeting);
+
+var greeting2 = `yo my dudes, my name is ${name} and i'm ${age} years young and living at ${address}. isn't that neato?`;
+
+console.log(greeting2)
+
+
 /*
 	Part 2: Create another variable called greeting2. This time, use the
 	new ES6 Syntax, string interpolation, to create the same greeting.
@@ -18,6 +30,8 @@
 	Check the console to make sure you're getting the desired result.
 
 */
+
+
 
 /*
 	Part 3: Pythagorean theorem. We will be using the Math object we saw earlier
@@ -43,6 +57,14 @@
 	Check the console to make sure you're getting the desired result.
 */
 
+var side1 = 7;
+var side2 = 9;
+
+var side3 = Math.sqrt(Math.pow(side1, 2) + Math.pow(side2, 2));
+
+console.log(side3);
+
+
 /*
 	Part 4: (No coding is needed for this part).
 	We are given a list of 20 numbers. We have to go through the list and find the
@@ -56,6 +78,18 @@
 
 	Bonus: What would the pseudocode look like if you also had to find the smallest number?
 */
+
+Begin with list of 20 numbers.
+Compare first two numbers.
+If first number is larger than second number, compare first number to third number. 
+If not, compare second number to third number.
+Take larger number and repeat step 2 until largest number is found.
+
+Begin with list of 20 numbers.
+Compare first two numbers.
+If first number is smaller than second number, compare first number to third number. 
+If not, compare second number to third number.
+Take smaller number and repeat step 2 until smallest number is found.
 
 
 /* Bonus
